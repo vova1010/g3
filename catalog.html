@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kulturer | G3 Ungplanter</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="img/logo-header.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="catalog.html" class="header__link">PRODUKTKATALOG</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">VEKSTKURVER</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">GALLERI</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="header__link">OM OSS</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="header__link">KONTAKT OSS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="catalog-bg">
+        <img src="img/logo-main.png" alt="small-logo">
+    </section>
+    <section id="catalog">
+        <div class="container">
+            <h1 class="section__title">Produktkatalog</h1>
+            <div class="wrapper__catalog__search">
+                <div class="catalog__search">
+                    <input type="search" name="" id="catalog__search__input" placeholder="Søk i kulturer" onkeyup="search_category()">
+                </div>
+            </div>
+            <div class="catalog__body grid">
+                <a href="category.html" class="catalog__link">Argyranthemum Frutensces</a>
+                <a href="category.html" class="catalog__link">Felicia</a>
+                <a href="category.html" class="catalog__link">Bacopa</a>
+                <a href="category.html" class="catalog__link">Begonia Royal</a>
+                <a href="category.html" class="catalog__link">Bidens</a>
+                <a href="category.html" class="catalog__link">Brachycome</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact-main">
+        <div class="container">
+            <div class="contact-main__body grid">
+                <div class="contact-main__item__wrapper">
+                    <div class="contact-main__item">
+                        <h2>RÅDGIVNING</h2>
+                        <p class="text__description">Vil du vite mer? Kontakt Per Donbæk for gode råd og tips.</p>
+                        <div class="contact-main__item__links">
+                            <div class="contact-main__item__tel">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href=mailto:“per@g3.no” class="contact-main__item__tel__link">per@g3.no</a>
+                            </div>
+                            <div class="contact-main__item__tel">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:(+47) 95 98 43 60" class="contact-main__item__tel__link">(+47) 95 98 43 60</a>
+                            </div>
+                        </div>
+                        <img src="img/photo-contact.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="contact-main__item__wrapper">
+                    <div class="contact-main__item">
+                        <h2>G3 NYHETSBREV</h2>
+                        <p class="text__description" style="padding: 0px;">Meld deg på og få tilbud og siste nyheter fra G3 Ungplanter.</p>
+                        <div class="contact-main__item__email">
+                            <input type="email" placeholder="Din E-post" id="email__input">
+                            <input type="submit" value="Send" id="send__btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__item footer__logo">
+                    <a href="index.html">
+                        <img src="img/logo-footer.png" alt="logo">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <a href="https://goo.gl/maps/hRg151ivpfPAe7nh6" class="footer__link" target="_blank">Fjæreveien 50<br>4885 Grimstad</a>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item__link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href=mailto:“per@g3.no” class="footer__link">per@g3.no</a>
+                    </div>
+                    <div class="footer__item__link">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:(+47) 95 98 43 60" class="footer__link">(+47) 95 98 43 60</a>
+                    </div>
+                </div>
+                <div class="footer__item social">
+                        <a href="https://www.instagram.com/g3_ungplanter/" class="social__link" target="_blank">
+                            <span>G3 på Instagram</span>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/257a877408.js" crossorigin="anonymous"></script>
+</body>
+</html>
